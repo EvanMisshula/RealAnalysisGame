@@ -15,7 +15,7 @@ that might seem like a reasonable definition to have.
 
 But first: for some reason (likely Euler is to blame), mathematics has *two* completely different conventions for how to write functions. For general functions $f : \\mathbb R \\to\\mathbb R$,
 we write $f(x)$, with parentheses. But when work with sequences, $a_n$, meaning,
-$a_0, a_1, a_2, \\dots$, we bizarely switch instead to subscripts.
+$a_0, a_1, a_2, \\dots$, we bizarrely switch instead to subscripts.
 Why? Historical accident.
 A sequence is nothing but a function whose \"domain\" (that is, the set of
 inputs to the function) is the natural numbers; so we will break
@@ -144,7 +144,7 @@ For any sequence `a : ℕ → ℝ` and constant `L : ℝ`, and
 hypothesis `h : ∀ n, a n = L`, the theorem `ConstLim`
 proves that `SeqLim a L`, that is, the (constant) sequence `a` converges to `L`.
 -/
-TheoremDoc ConstLim as "ConstLim" in "Sequences"
+TheoremDoc ConstLim as "ConstLim" in "aₙ"
 
 
 /-- Prove that the constant sequence converges to its constant value.
