@@ -15,7 +15,7 @@ that might seem like a reasonable definition to have.
 
 But first: for some reason (likely Euler is to blame), mathematics has *two* completely different conventions for how to write functions. For general functions $f : \\mathbb R \\to\\mathbb R$,
 we write $f(x)$, with parentheses. But when work with sequences, $a_n$, meaning,
-$a_0, a_1, a_2, \\dots$, we bizarely switch instead to subscripts.
+$a_0, a_1, a_2, \\dots$, we bizarrely switch instead to subscripts.
 Why? Historical accident.
 A sequence is nothing but a function whose \"domain\" (that is, the set of
 inputs to the function) is the natural numbers; so we will break
@@ -94,7 +94,7 @@ That is, suppose that you have a sequence `a : ℕ → ℝ`, and there's a real 
 
 You may find useful a new tactic called `change`. It allows you to replace a goal (or hypothesis) by
 something that is definitionally equal to it. In our example here,
-You will see the goal as `SeqLim a L`. What are you supposed to do with that,
+you will see the goal as `SeqLim a L`. What are you supposed to do with that,
 how can you make progress? Well, if you remember how `SeqLim` is defined,
 then you can replace the goal with the definition, by writing
 
