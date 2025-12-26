@@ -7,11 +7,11 @@ Title "Iterated Gaps"
 Introduction "
 # Level 4: Iterated Gaps
 
-Now it's time to prove the technical helper lemma that made Level 2 possible. This result captures the precise mechanism by which persistent gaps in a monotone sequence accumulate under iteration.
+Now it's time to prove the technical helper lemma that made Level 3 possible. This result captures the precise mechanism by which persistent gaps in a monotone sequence accumulate under iteration.
 
 ## The Setup
 
-Recall from Level 2: we had a bounded monotone sequence that we assumed (for contradiction) was not Cauchy. This gave us:
+Recall from Level 3: we had a bounded monotone sequence that we assumed (for contradiction) was not Cauchy. This gave us:
 - Some `ε > 0` representing the persistent gap size
 - Subsequences `τ` and `σ` where `τ n ≥ n` and `σ n ≥ τ n`
 - The gap condition: `ε ≤ |a (σ n) - a (τ n)|` for all `n`
